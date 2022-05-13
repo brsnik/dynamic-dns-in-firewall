@@ -17,7 +17,7 @@ $ ufw status
 
 Multiple addresses supported per domain!
 
-As well as domains supported! Add as many Dynamic DNS domains as you want!
+As well as multiple domains supported! Add as many Dynamic DNS domains as you want!
 
 Firewall rules for addresses no longer in the DNS records are removed.
 
@@ -37,5 +37,10 @@ Firewall rules for addresses no longer in the DNS records are removed.
   - To run every hour add `0  *  *  *  *   root    /var/cron/dynamic-dns-in-ufw.sh`
   - Or for every half hour add `*/30  *  *  *  *   root    /var/cron/dynamic-dns-in-ufw.sh`
 6. Save and exit vim `:wq`
+  --------
+## Notes
+
+- When you remove a domain you no longer need, the script will not remove the rules from your firewall. They need to be manually removed.
+- Slack notifications upon error will be soon added!
 
 
