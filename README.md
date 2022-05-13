@@ -41,6 +41,6 @@ Firewall rules for addresses no longer in the DNS records are removed.
 ## Notes
 
 - When you remove a domain you no longer need, the script will not remove the rules from your firewall. They need to be manually removed.
-- Slack notifications upon error will be soon added!
+- Slack notifications upon error will be added soon!
 
 
