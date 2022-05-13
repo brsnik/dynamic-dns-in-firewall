@@ -1,6 +1,6 @@
 # Dynamic DNS in Firewall
 
-Automatically set traffic rules from a Dynamic DNS Domain with Dynamic IP Addresses
+Automatically set traffic rules for Dynamic IP Addresses from a Dynamic DNS Domain
 
 > Currently only works with `UFW`, but could be easily adapted to `IPTABLES`. Feel free to contribute!
 
